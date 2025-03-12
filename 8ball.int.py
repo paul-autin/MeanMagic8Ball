@@ -1,3 +1,15 @@
+#This is a prototype for a Mean Magic 8 Ball - as of now, the potential responses of the 8 Ball
+#are limited to 15. Will be adding more soon. The idea is to bind potential answers
+#to corresponding numbers as opposed to having the answers themselves be randomly selected.
+
+#Before you say anything about how this code would be cleaner if I had the answers themselves randomnly
+#selected from an answer bank, I'm new to Python and wanted to play around with "if/else/elif" statements
+#for this. My GitHub will host two versions of the game, one of which will use the more popular (and cleaner)
+#"choice()" function.
+
+#Players should fill out the "Name" field before running the script. There's literally a single nice answer in this program,
+#so hats off to you if you manage to get an answer that isn't rude on your first try.
+
 import random
 
 name = "user"
