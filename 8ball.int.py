@@ -1,11 +1,12 @@
 import random
-random_number = random.randint(1,10)
-#print(random_number)
 
 name = "user"
-question = "question"
+#Change to your first name, or leave as is.
+
 answer = ""
 
+random_number = random.randint(1,15)
+#print(random_number)
 
 if random_number == 1:
     answer = "Back off, I need space"
@@ -40,5 +41,11 @@ elif random_number == 14:
 elif random_number == 15:
     answer = "Nooooo, you're so ugly when you cry..."
 
-print(name + " asks: " + question)
-print("Mean Magic 8 Ball's answer: " + answer)
+while True:
+    question=input("Ask the 8 Ball a question (press enter to quit): ")
+    if question=="":
+        print("Stopping the game")
+        break
+    else:
+        print(name + " asks: " + question)
+        print("Mean Magic 8 Ball's answer: " + answer)
